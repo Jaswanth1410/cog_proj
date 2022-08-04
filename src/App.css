@@ -1,0 +1,17 @@
+.page{
+  background:url('components/Images/Illustrations/LpBg.jpg');
+  background-size: 100vw 116vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+} 
+
+@media only screen and (max-width:1090px){
+  .page{
+    background-size: 100vw 105vh;
+  }
+}
+@media only screen and (max-width:450px){
+  .page{
+    background-size:100vw 78vh;
+  }
+}
